@@ -45,14 +45,21 @@ footer {
     text-align: center;
     background-color: rgb(207, 204, 204);
     font-family: arial, sans-serif;
+    position: relative;
+    margin-top: 36%;
+    
+}
 
 .footer-menu-left {
+    text-align: left;
+    margin-left: 1%;
 }
 
 .footer-menu-middle {
- 
+    text-align: center;
 }
 
 .footer-menu-right {
-
+    text-align: right;
+    margin-right: 1%;
 }
