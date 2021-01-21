@@ -32,11 +32,14 @@ a:hover{
     grid-area: 1;
 }
 
+
 #top-menu-right {
     justify-self: self-end;
     grid-area: 1;
     margin-right: 50px;
 }
+
+
 #google-suite-grid {
    display: inline-block; 
    text-align: right;
@@ -64,7 +67,6 @@ a:hover{
     left: 50%;
     margin: auto;
     margin-top: 30px;
-    background-image:url(images/eyeglass.png);
     background-repeat:no-repeat;
     background-position: 10px;
     text-align: left;
@@ -100,23 +102,31 @@ a:hover{
 
 footer {
     text-align: center;
-    background-color: rgb(207, 204, 204);
     font-family: arial, sans-serif;
-    position: relative;
-    margin-top: 36%;
-    
+    font-size: 12px;
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
 }
 
 .footer-menu-left {
     text-align: left;
-    margin-left: 1%;
+    float: left;
+    margin-left: 30px;
+    min-width: 30%;
 }
-
 .footer-menu-middle {
     text-align: center;
+    padding-left: 22px;
+    white-space: nowrap;
 }
 
 .footer-menu-right {
     text-align: right;
-    margin-right: 1%;
+    float: right;
+    margin-right: 30px;
+    min-width: 30%;
 }

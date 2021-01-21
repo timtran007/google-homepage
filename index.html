@@ -4,18 +4,19 @@
     <head>
         <meta charset="utf-8" description="google.com">
         <title>Google</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
         <link href="styles/stylesheet.css" rel="stylesheet">
     </head>
     <header>
         <div class="header-menu">
         <span id="top-menu-left">
-            <a href="#">About</a>
-            <a href="#">Store</a>
+            <a href="#" style="padding-right: 5px;">About</a>
+            <a href="#" >Store</a>
         </span>
         <span id="top-menu-right">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a href="#"><img id="google-suite-grid" src="images/google-grid.png"></a>
+            <a href="#" style="padding-right: 5px;">Gmail</a>
+            <a href="#" style="padding-right: 5px;">Images</a>
+            <a href="#"><img id="google-suite-grid" src="images/google-grid.png" style="padding-right:5px;"></a>
             <a href="#"><img id="login-picture" src="images/gmail photo copy.jpg"> </a>
         </span>
     </div>
@@ -23,7 +24,7 @@
     <body> 
         <div id="google-logo"><img src="images/googlelogo_color_272x92dp.png" alt="google's logo"></div>
         <form action="#">
-            <div class="search-bar"><label for="google-search-bar"><input type="text" id="google-search-bar" name="search-feature"></label></div>
+            <div class="search-bar"><label for="google-search-bar"><input type="text" id="google-search-bar" name="search-feature" style="background-image:url(images/eyeglass.png)"></label></div>
             <div id="google-buttons">
                 <label for="google-search-button"><button id="google-search-button" name="search-feature" type="submit">Google Search</button></label>
                 <label for="im-feeling-lucky-button"><button id="im-feeling-lucky-button" name="search-feature" type="submit">I'm Feeling Lucky</button></label>
@@ -32,18 +33,18 @@
         <script src="scripts/main.js"></script>
     </body>
     <footer>
-        <div class="footer-menu-left">
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search works</a>
-        </div>
-        <div class="footer-menu-middle">
-            <img src="" alt=""><a href="">Carbon neutral since 2007</a>
-        </div>
-        <div class="footer-menu-right">
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
-        </div>
+        <span class="footer-menu-left">
+            <a href="#" style="padding-right:5px;">Advertising</a>
+            <a href="#" style="padding-right:5px;">Business</a>
+            <a href="#" style="padding-right:5px;">How Search works</a>
+        </span>
+        <span class="footer-menu-middle">
+            <img src="images/leaf.png" alt="" style="height:14px; padding-right:3px;"><a href="">Carbon neutral since 2007</a>
+        </span>
+        <span class="footer-menu-right">
+            <a href="#" style="padding-right:5px;">Privacy</a>
+            <a href="#" style="padding-right:5px;">Terms</a>
+            <a href="#" style="padding-right:5px;">Settings</a>
+        </span>
     </footer>
 </html>
