@@ -75,8 +75,17 @@ a:hover{
     display: relative;
 }
 #google-search-bar:hover{
-    border: 1px solid #dfe1e5;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    background-color: #ffffff;
+    border-color: rgba(223,225,229,0);
 }
+#google-search-bar:focus{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    background-color: #ffffff;
+    border-color: rgba(223,225,229,0);
+    outline: none;
+}
+
 
 #google-buttons{
     text-align: center;
